@@ -1,0 +1,113 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    color: white;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.349),
+    rgba(0, 0, 0, 0.342)
+   )
+   ,url(../imagenes/banner.jpg);
+   margin: auto;
+h2{
+    margin: 5px 10px;
+    text-align: center;
+    display: block;
+    font-size: 1.6em;
+}
+.boton{
+    text-decoration:none;
+    padding: 10px 10px;
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 15PX ;
+    color: rgb(255, 255, 255);
+    background-color: rgba(56, 56, 56, 0.418);
+    margin: 25px;
+    &:hover{
+        color:rgb(255, 255, 255);
+        background-color:cornflowerblue;
+        transform: scale(1.1);
+        border: 1px solid rgb(252, 252, 252);
+        border-radius: 20PX ;
+      }
+  }
+}
+
+//* media hero*//
+
+@media (min-width: 768px){
+
+.hero h2{
+    font-size: 2.5em;} 
+}
+
+//* servicios-separador*//
+
+section {
+    padding: 0 0 15px 0;
+
+.container{
+    background-color: white;
+}
+}
+
+.serv_h3{
+    padding: 10px;
+    text-align: center;
+    &:hover{
+        transform: scale(1.1);
+       }
+    }
+
+//* servicios*//
+
+#clientes  .container{
+    display: block;
+    justify-content: center;
+}
+
+.cont_separador{
+    display: block;
+    padding: 10px;
+    background-color:rgb(32, 32, 32);
+    & h2{
+        display: block;
+        padding-top: 15px;
+        color: Cornflowerblue;
+        font-size: 2.5em;
+        text-align: center;
+    &:hover{
+        transform: scale(1.2);
+       }
+        }
+        p{
+        text-align: center;
+        color: white;
+        }
+  } 
+
+//* desarollos *//
+
+    #desarrollos .container{
+        width: 100vw;
+        height: 60%;
+        padding: 40px 50px;
+        background-color:rgb(32, 32, 32);
+
+        h5{
+            color:Cornflowerblue ;
+          } 
+    }
+
+//* clientes *//
+
+#clientes .container{
+    background-color:rgb(32, 32, 32); 
+    padding-top: 20px;
+}

@@ -1,0 +1,45 @@
+.hero_comodin{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1b172c; 
+    margin: auto;
+    h2{
+        color: $color-primario;
+        font-weight: 600;
+        font-size: 2.3em;
+        text-align: center;
+        margin-top: 15px;
+        &:hover{
+            color:rgb(255, 255, 255);
+          }
+        }
+       
+}
+.p_servicios{
+    color: $color-hero;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px 10px; 
+  }
+
+////////////* media*///////////// 
+@media (min-width: 900px){
+
+.hero_comodin h2{
+    color: $color-primario;
+    font-weight: 600;
+    font-size: 2.8em;
+    text-align: center;
+    margin-top: 15px;
+    } 
+    .p_servicios{
+        color: $color-hero;
+        font-size: 1.8em;
+        text-align: center;
+        margin: 15px 20px;  
+      } 
+   
+}
